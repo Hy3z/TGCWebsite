@@ -1,0 +1,8 @@
+Pour lancer le site:
+
+git clone ... (ou dl l'archive)
+cd TGCWebsite 
+npm install
+npm run dev
+
+Il faut avoir un version de node (je suis sur v18.12.1)
