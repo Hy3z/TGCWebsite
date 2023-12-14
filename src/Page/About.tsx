@@ -1,6 +1,10 @@
+import Sponsors from "../Components/Sponsors"
+
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Sponsors/>
+    </div>
   )
 }
 

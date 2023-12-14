@@ -1,0 +1,11 @@
+.video {
+    width: 40px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.navHeader {
+    display:flex;
+    align-items: center;
+}
+

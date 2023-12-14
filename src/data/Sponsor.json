@@ -1,0 +1,19 @@
+{
+    "title": [
+        "Pariatur eiusmod esse occaecat dolor cillum excepteur velit.", 
+        "Fugiat proident eu proident dolor veniam cupidatat consequat.", 
+        "Qui officia nulla ea reprehenderit culpa sint laboris reprehenderit laborum est."
+    ],
+    "description": [
+        "Laborum laboris magna dolor aliquip enim et dolore magna cillum. Irure officia laboris consequat proident officia elit. Ipsum nulla adipisicing mollit dolor enim deserunt laboris magna excepteur dolor voluptate officia ullamco. Exercitation deserunt labore occaecat consequat voluptate voluptate. Duis laborum voluptate aliqua fugiat sit laboris. Ipsum aute eu mollit officia magna ad aute fugiat tempor laborum. Eu mollit amet deserunt dolor in.",
+        "Excepteur reprehenderit dolore duis labore veniam labore nisi reprehenderit. Dolore ipsum fugiat anim veniam anim nisi fugiat Lorem enim cupidatat. Officia est proident labore labore exercitation in laborum. Pariatur aute esse mollit culpa nostrud culpa ut laborum fugiat deserunt Lorem enim veniam cupidatat. Labore veniam non enim adipisicing voluptate ullamco ex pariatur id Lorem dolor laborum.",
+        "Anim culpa aliquip voluptate occaecat. Minim eiusmod consequat aute proident qui mollit in est. Aute pariatur ipsum aliqua cillum fugiat qui occaecat ex laborum cupidatat do laboris proident. Minim do enim velit laboris non sit minim elit sit esse. Ullamco laborum cillum laboris laboris velit. Esse deserunt anim sunt magna reprehenderit sunt et voluptate sint. Cupidatat Lorem irure non do dolor consectetur sunt adipisicing."
+    ],
+    "link": [
+        "https://getbootstrap.com/docs/5.3/components/alerts/",
+        "https://getbootstrap.com/docs/5.3/components/badge/",
+        "https://getbootstrap.com/docs/5.3/components/button-group/"
+    ],
+    "buttonName": ["Click here", "Click here", "Click here"]
+    
+}

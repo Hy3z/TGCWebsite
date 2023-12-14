@@ -1,19 +1,26 @@
 import { Link, Outlet } from "react-router-dom";
-import logo from "../Assests/tgc_logo_orange_png.png";
+//import logo from "../Assests/tgc_logo_orange_png.png";
+import Video from "../Assests/background-Logo_gradient_1.mp4";
+import Styles from "./css/NavBar.module.css";
 
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-underline">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img
+            {/* <img
               src={logo}
               width="50"
               height="50"
 
-            />
-            Telecom Gaming Club
+            /> */}
+            <div className={Styles.navHeader}>
+              <video className={Styles.video} loop autoPlay>
+                <source src={Video} type="video/mp4" />
+              </video>
+            <div>Telecom Gaming Club</div>
+            </div>
           </Link>
           <button
             className="navbar-toggler"
@@ -27,7 +34,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarScroll">
-            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ">
               <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
                   Home
