@@ -8,7 +8,7 @@ interface Props {
 
 const Card = ({ image, title, description, buttonName, link }: Props) => {
   return (
-    <div className="card" style={{ width: "18rem" }}>
+    <div className="card" style={{ width: "18rem", background: "rgb(11, 11, 11)" }}>
       <img src={image} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>

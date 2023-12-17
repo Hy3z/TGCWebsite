@@ -6,15 +6,9 @@ import Styles from "./css/NavBar.module.css";
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-underline">
+      <nav className={`navbar navbar-expand-lg sticky-top nav-underline navbar-dark ${Styles.globalStyle}`}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            {/* <img
-              src={logo}
-              width="50"
-              height="50"
-
-            /> */}
             <div className={Styles.navHeader}>
               <video className={Styles.video} loop autoPlay>
                 <source src={Video} type="video/mp4" />

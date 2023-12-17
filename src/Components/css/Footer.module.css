@@ -1,0 +1,18 @@
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-inline: 3rem;
+    margin-block: 2rem;
+    border-top: 1px solid rgb(141, 141, 141);
+    
+}
+
+.version {
+
+}
+
+.socials {
+     width: 200px;
+}

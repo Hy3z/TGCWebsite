@@ -8,23 +8,28 @@ import CSSL from "./Page/CSSL";
 import IPPT from "./Page/IPPT";
 import LanFoyer from "./Page/LanFoyer";
 import FAQ from "./Page/FAQ";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<NavBar />}>
-        <Route index element={<HomePage />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="faq" element={<FAQ />} />
-        <Route path="event">
-          <Route path="cssl" element={<CSSL />} />
-          <Route path="ipptournament" element={<IPPT />} />
-          <Route path="lanfoyer" element={<LanFoyer />} />
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/">
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="faq" element={<FAQ />} />
+          <Route path="event">
+            <Route path="cssl" element={<CSSL />} />
+            <Route path="ipptournament" element={<IPPT />} />
+            <Route path="lanfoyer" element={<LanFoyer />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
+      </Routes>
+      <Footer />
+    </>
   );
 };
 

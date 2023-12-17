@@ -1,0 +1,30 @@
+.youtube {
+    color: #FF0000;
+}
+
+.discord {
+    color: #5865F2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.instagram {
+    color: #bc2a8d;
+}
+
+.socials {
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+.socials:hover {
+    transform: translateY(-2px)
+}
+
+.socialsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
