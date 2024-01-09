@@ -3,6 +3,7 @@ import Styles from "./css/HomePage.module.css";
 import Video from "../Assests/background-Logo_gradient_1.mp4";
 import Carousel from "../Components/Carousel";
 import Sponsors from "../Components/Sponsors";
+import CarouselData from "../data/CarouselData";
 
 const HomePage = () => {
   return (
@@ -22,7 +23,7 @@ const HomePage = () => {
       </div>
       <div className={Styles.eventPresentation}>
         <div className={Styles.carouselEvent}>
-          <Carousel />
+          <Carousel imgs={CarouselData.imgs} headers={CarouselData.headers} descriptions={CarouselData.descriptions} />
         </div>
         <div className={Styles.text}>
           <div className={Styles.title}>Titre du texte</div>
@@ -38,6 +39,7 @@ const HomePage = () => {
         <div className={Styles.title}>Un grand merci à nos sponsors :</div>
         <Sponsors/>
       </div>
+      
     </div>
   );
 };

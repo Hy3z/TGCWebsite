@@ -1,19 +1,27 @@
 {
     "title": [
-        "Pariatur eiusmod es", 
-        "Fugiat proident eu", 
-        "Qui officia nulla"
+        "TechMaster Solutions",
+        "EpicGear Gaming Gear",
+        "BoostIT Streaming Services",
+        "EnergyDrink X",
+        "DigitalArt Media",
+        "ConnectIn Networking Solutions"
     ],
     "description": [
-        "Laborum laboris magna dolor aliquip enim et dolore magna cillum. Irure officia laboris consequat proident officia elit. Ipsum nulla adipisicing mollit dolor enim deserunt laboris magna excepteur dolor voluptate officia ullamco.",
-        "Excepteur reprehenderit dolore duis labore veniam labore nisi reprehenderit. Dolore ipsum fugiat anim veniam anim nisi fugiat Lorem enim cupidatat. Officia est proident labore labore exercitation in laborum.",
-        "Anim culpa aliquip voluptate occaecat. Minim eiusmod consequat aute proident qui mollit in est. Aute pariatur ipsum aliqua cillum fugiat qui occaecat ex laborum cupidatat do laboris proident."
+        "TechMaster Solutions est fier d'être le partenaire technologique officiel de TGC. Nous fournissons un soutien technique de pointe, des équipements de jeu de haute qualité et des solutions innovantes pour garantir le succès de tous les événements. Ensemble, nous repoussons les limites de la technologie gaming.",
+        "EpicGear Gaming Gear s'associe à TGC pour offrir l'équipement de jeu ultime. Des souris ergonomiques aux claviers rétroéclairés, notre gamme de produits de qualité supérieure assure une expérience de jeu immersive. Ensemble, nous faisons avancer l'industrie du gaming avec style et performance.",
+        "BoostIT Streaming Services est le partenaire de choix pour la diffusion en direct des tournois CSSL et IPP. Avec une expertise dans le streaming de haute qualité, nous assurons une couverture exceptionnelle des événements. Grâce à notre collaboration, TGC continue de captiver les fans du monde entier.",
+        "EnergyDrink X, partenaire énergétique officiel de TGC, fournit l'énergie nécessaire pour des compétitions acharnées. Nos boissons énergétiques premium sont spécialement conçues pour les gamers passionnés. Avec EnergyDrink X, TGC maintient un niveau de performance élevé tout au long de chaque événement.",
+        "DigitalArt Media, le partenaire créatif de TGC, apporte une touche artistique à chaque événement. De la conception graphique à la production vidéo, nous capturons l'esprit unique de TGC. Ensemble, nous créons des souvenirs visuels inoubliables pour les participants et les fans.",
+        "ConnectIn Networking Solutions offre un soutien crucial à la connectivité réseau de TGC. En tant que partenaire réseau officiel, nous garantissons des connexions fiables et rapides pour tous les tournois en ligne. Avec notre expertise, TGC peut offrir une expérience de jeu en ligne sans faille à sa communauté passionnée."
     ],
     "link": [
-        "https://getbootstrap.com/docs/5.3/components/alerts/",
-        "https://getbootstrap.com/docs/5.3/components/badge/",
-        "https://getbootstrap.com/docs/5.3/components/button-group/"
+        "https://www.youtube.com",
+        "https://www.youtube.com",
+        "https://www.youtube.com",
+        "https://www.youtube.com",
+        "https://www.youtube.com",
+        "https://www.youtube.com"
     ],
-    "buttonName": ["Click here", "Click here", "Click here"]
-    
+    "buttonName": ["Click here", "Click here", "Click here", "Click here", "Click here", "Click here"]
 }

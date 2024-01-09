@@ -5,5 +5,8 @@ import LogoJaune from "../Assests/tgc_logo_yellow_png.png"
 export default [
     LogoOrange,
     Logorouge,
+    LogoJaune,
+    LogoOrange,
+    Logorouge,
     LogoJaune
 ]

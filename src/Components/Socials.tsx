@@ -12,16 +12,16 @@ const Socials = () => {
   return (
     <div className={Styles.socialsContainer}>
       <a href="#" className={Styles.youtube + " " + Styles.socials}>
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
+        <FontAwesomeIcon icon={faYoutube} size="2x" className={Styles.socialIcon} />
       </a>
       <a href="#" className={Styles.twitter + " " + Styles.socials}>
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+        <FontAwesomeIcon icon={faTwitter} size="2x" className={Styles.socialIcon} />
       </a>
       <a href="#" className={Styles.discord + " " + Styles.socials}>
-        <FontAwesomeIcon icon={faDiscord} size="2x" />
+        <FontAwesomeIcon icon={faDiscord} size="2x" className={Styles.socialIcon} />
       </a>
       <a href="#" className={Styles.instagram + " " + Styles.socials}>
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
+        <FontAwesomeIcon icon={faInstagram} size="2x" className={Styles.socialIcon} />
       </a>
     </div>
   );
