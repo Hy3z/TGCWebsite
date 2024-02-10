@@ -27,7 +27,7 @@ const NavBar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarScroll">
+          <div className="collapse navbar-collapse" id="navbarScroll" style={{marginLeft:"14%"}}>
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ">
               <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
