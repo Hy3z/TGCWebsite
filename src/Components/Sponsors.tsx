@@ -1,6 +1,5 @@
 import SponsorJson from "../data/Sponsor.json";
 import ImageArray from "../data/CardImageArray.ts";
-import Card from "./Card";
 import Styles from "./css/Sponsors.module.css";
 import SponsorIcon from "./SponsorIcon.tsx";
 

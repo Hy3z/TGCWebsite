@@ -1,5 +1,3 @@
-//import Styles from "./css/Carousel.module.css";
-
 interface Props {
   imgs: string[];
   headers: string[];
@@ -14,7 +12,7 @@ const Carousel = ({ imgs, headers, descriptions }: Props) => {
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">
-        {imgs.map((img, index) => (
+        {imgs.map((_, index) => (
           <button
             key={index}
             type="button"
