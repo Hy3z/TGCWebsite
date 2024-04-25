@@ -1,6 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-//import logo from "../Assests/tgc_logo_orange_png.png";
-import Video from "../Assests/background-Logo_gradient_1.mp4";
+import Video from "../Assests/tgcLogos/background-Logo_gradient_1.mp4";
 import Styles from "./css/NavBar.module.css";
 
 const NavBar = () => {

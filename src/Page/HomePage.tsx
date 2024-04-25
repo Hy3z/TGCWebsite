@@ -1,6 +1,6 @@
 import "../App.css";
 import Styles from "./css/HomePage.module.css";
-import Video from "../Assests/background-Logo_gradient_1.mp4";
+import Video from "../Assests/tgcLogos/background-Logo_gradient_1.mp4";
 import Carousel from "../Components/Carousel";
 import Sponsors from "../Components/Sponsors";
 import CarouselData from "../data/CarouselHomePageData";
