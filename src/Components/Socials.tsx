@@ -13,13 +13,13 @@ const Socials = () => {
       <a href="#" className={Styles.youtube + " " + Styles.socials}>
         <FontAwesomeIcon icon={faYoutube} size="2x" className={Styles.socialIcon} />
       </a>
-      <a href="#" className={Styles.twitter + " " + Styles.socials}>
+      <a href="https://twitter.com/telecomgamingcb" className={Styles.twitter + " " + Styles.socials}>
         <FontAwesomeIcon icon={faTwitter} size="2x" className={Styles.socialIcon} />
       </a>
-      <a href="#" className={Styles.discord + " " + Styles.socials}>
+      <a href="https://discord.gg/DHP5VDDy2M" className={Styles.discord + " " + Styles.socials}>
         <FontAwesomeIcon icon={faDiscord} size="2x" className={Styles.socialIcon} />
       </a>
-      <a href="#" className={Styles.instagram + " " + Styles.socials}>
+      <a href="https://www.instagram.com/tgc_telecom_paris" className={Styles.instagram + " " + Styles.socials}>
         <FontAwesomeIcon icon={faInstagram} size="2x" className={Styles.socialIcon} />
       </a>
     </div>
