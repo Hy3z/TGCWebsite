@@ -1,13 +1,15 @@
 .cardBody {
     padding: 20px;
-    width: 200px;
+    height: 250px
 }
 
 .imgContainer {
-
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+    height: 150px;
 }
 
 .sponsorImage {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width:auto;
 }

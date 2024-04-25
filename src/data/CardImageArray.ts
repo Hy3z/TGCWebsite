@@ -1,12 +1,9 @@
-import LogoOrange from "../Assests/tgc_logo_orange_png.png"
-import Logorouge from "../Assests/tgc_logo_red_png.png"
-import LogoJaune from "../Assests/tgc_logo_yellow_png.png"
+import KPMG from "../Assests/KPMGLogo.png"
+import SG from "../Assests/SGLogo.png"
+import IPP from "../Assests/IPPLogo.png"
 
 export default [
-    LogoOrange,
-    Logorouge,
-    LogoJaune,
-    LogoOrange,
-    Logorouge,
-    LogoJaune
+    KPMG,
+    SG,
+    IPP
 ]
