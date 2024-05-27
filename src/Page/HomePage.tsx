@@ -18,9 +18,9 @@ const HomePage = () => {
           <Countdown
             title="Début de l'IPP League!"
             year={2024}
-            month={4}
-            day={6}
-            hour={8}
+            month={12}
+            day={24}
+            hour={20}
           />
         </div>
         <div className={Styles.videoContainer}>
