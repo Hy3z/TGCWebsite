@@ -1,0 +1,53 @@
+.pageContainer {
+}
+
+.header {
+    padding-inline: 50px;
+    background-color: rgb(11, 11, 11);
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header .title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.body {
+    background-color: rgb(20, 20, 20);
+    padding-inline: 50px;
+}
+
+.body .rules {
+    padding-block: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rules > .title {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.rules .content {
+    display: flex;
+}
+
+.content .title {
+    font-size: 1.5rem;
+}
+
+.content .pool {
+    flex:1;
+}
+
+.content .cashPrize {
+    flex:1;
+}
+
+.content .playoff {
+    flex:1;
+}
+
