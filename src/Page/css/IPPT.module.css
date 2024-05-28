@@ -14,7 +14,7 @@
 
 .topSection .text {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -23,25 +23,18 @@
     text-transform: uppercase;
 }
 
-.text .title {
-    
+.topSection .text .title {
+
 }
 
-.imagecontainer {
-    position: absolute;
-    top: 100%;
-    left: 10%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
+.topSection .imagecontainer {
+    padding-top: 50px;
 }
 
 .imagecontainer img {
-  margin: 0 10px;
-  width: 45%;
-  heigh: auto;
-  padding: 22% 10%;
+    padding: 50px;
+    width: 30%;
+    height: auto;
 }
 
 .eventDescriptionSection {
