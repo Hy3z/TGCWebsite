@@ -1,9 +1,13 @@
 import BubbleUI from "react-bubble-ui";
 import "react-bubble-ui/dist/index.css";
-import Child from "./ChildComponent";
+import Bubble from "./Bubble.tsx";
 import "./css/BubbleUi.module.css";
 
-export default function BubbleUi(props) {
+interface Props{
+	data: string[];
+}
+
+const BubbleUi=({data}:Props)=> {
 	const options = {
 		size: 180,
 		minSize: 20,
@@ -19,11 +23,12 @@ export default function BubbleUi(props) {
 		gravitation: 5
 	}
 
-	const children = props.data.map((data, i) => {
-		 return <Child data={data} className="child" key={i}>
+	const children = data.map((data, i) => {
+		 return <Bubble className="child" key={i}/>
 	});
 
-	return (<BubbleUI options={options} className="myBubbleUI">
-		{children}
-	</BubbleUI>)
+	return (
+		<BubbleUI options={options} className="myBubbleUI"> {children} </BubbleUI>)
 };
+
+export default BubbleUi;

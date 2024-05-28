@@ -1,11 +1,12 @@
-import Sponsors from "../Components/Sponsors"
+import BubbleUi from "../Components/BubbleUi"
+import BubbleIppt from "../data/BubbleIPPT"
 
 const About = () => {
   return (
     <div>
-      <Sponsors/>
+    <BubbleUi data={BubbleIppt["data"]}/>
     </div>
   )
 }
 
-export default About
+export default About;
