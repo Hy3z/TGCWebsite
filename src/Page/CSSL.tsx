@@ -23,7 +23,7 @@ const CSSL = () => {
       </div>
 
       <div className={Styles.body}>
-        <div className={Styles.rules}>
+        <div className={Styles.progress}>
           <div className={Styles.title}>Déroulement de l'événement:</div>
           <div className={Styles.content}>
             <div className={Styles.pool}>
@@ -54,6 +54,13 @@ const CSSL = () => {
           </div>
         </div>
 
+        <div className={Styles.rules}>
+          <div className={Styles.title}>Voici le format des match</div>
+          <div className={Styles.text}>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid voluptatibus quisquam, perferendis itaque, dicta ducimus ipsa ad tenetur ullam similique magnam aliquam cumque adipisci facere quo sunt libero facilis?
+          </div>
+        </div>
+
         <div className={Styles.teamSection}>
           <div className={Styles.title}>Les équipes participantes</div>
           <div className={Styles.teams}>
@@ -68,7 +75,7 @@ const CSSL = () => {
 
         <div className={Styles.contact}>
           Pour toutes question sur l'événement ou pour nous contacter
-          directement, rendez-vous sur le <a href="#">discrod de la CSSL </a>
+          directement, rendez-vous sur le <a href="https://discord.gg/cK3KWrnQAv">discrod de la CSSL </a>.
         </div>
       </div>
     </div>
