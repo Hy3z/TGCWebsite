@@ -1,0 +1,71 @@
+.telecomParisDescription {
+    background: rgb(20, 20, 20);
+        display: flex;
+        justify-content: space-around;
+        gap: 10%;
+        padding-block: 30px;
+        padding-inline: 10%;
+    }
+    
+    .telecomParisDescription .paragraphe{
+        font-size: 1.5vw;
+        text-align: justify;
+    }
+    
+    .telecomParisDescription .telecomLogoContainer {
+        flex: 1;
+        padding: 20px;
+        background-color: rgb(206, 206, 206);
+    }
+    
+    .telecomParisDescription .telecomLogo {
+        width: 100%;
+        height: auto;
+    }
+    
+    .telecomParisDescription .text {
+        color: white;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .telecomParisDescription .title {
+        font-size: 3vw;
+    }
+    
+    
+    .eventPresentation {
+        background: rgb(14, 14, 14);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10%;
+        padding-block: 30px;
+        padding-inline: 10%;
+    }
+    
+    
+    .eventPresentation .carouselEvent {
+        flex: 1;
+    }
+    
+    .eventPresentation .text {
+        color: white;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: justify;
+        gap: 30px;
+    }
+    
+    .eventPresentation .title {
+        font-size: 3vw;
+    }
+    
+    .eventPresentation .paragraphe{
+        font-size: 1.5vw;
+    }
+    

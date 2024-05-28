@@ -8,7 +8,6 @@ const FAQ = () => {
   const theme = "Laborum et dolore pariatur irure exercitation."
   return (
     <>
-    <h1>La FAQ</h1>
     <Accordion id="id1" header={theme} questions={questionSet} answers={answerSet}/>
     <Accordion id="id2" header={theme} questions={questionSet} answers={answerSet}/>
     <Accordion id="id3" header={theme} questions={questionSet} answers={answerSet}/>

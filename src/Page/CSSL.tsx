@@ -2,22 +2,32 @@ import Countdown from "../Components/Countdown";
 import Styles from "./css/CSSL.module.css";
 import TeamCard from "../Components/TeamCard";
 import TeamInfo from "../data/CSSLTeams";
+import CSSLlogo from "../Assests/CSSL/CSSLlogo.png";
 
 const CSSL = () => {
   return (
     <div className={Styles.pageContainer}>
-      <div className={Styles.header}>
-        <div className={Styles.title}>
-          Counter-Strike Student League <p />
-          1ère édition
+      <div className={Styles.topSection}>
+        <div className={Styles.text}>
+          <div className={Styles.title}>
+            Counter-Strike Student League <p />
+            1ère édition
+          </div>
+          <div className={Styles.countdown}>
+            <Countdown
+              title="La grande final à Telemcom!"
+              year={2024}
+              month={7}
+              day={25}
+              hour={12}
+            />
+          </div>
         </div>
-        <div className={Styles.countdown}>
-          <Countdown
-            title="La grande final à Telemcom!"
-            year={2024}
-            month={7}
-            day={25}
-            hour={12}
+        <div className={Styles.imgContainer}>
+          <img
+            src={CSSLlogo}
+            alt="CSSL"
+            className={Styles.img}
           />
         </div>
       </div>
@@ -57,7 +67,10 @@ const CSSL = () => {
         <div className={Styles.rules}>
           <div className={Styles.title}>Voici le format des match</div>
           <div className={Styles.text}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid voluptatibus quisquam, perferendis itaque, dicta ducimus ipsa ad tenetur ullam similique magnam aliquam cumque adipisci facere quo sunt libero facilis?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur aliquid voluptatibus quisquam, perferendis itaque,
+            dicta ducimus ipsa ad tenetur ullam similique magnam aliquam cumque
+            adipisci facere quo sunt libero facilis?
           </div>
         </div>
 
@@ -75,7 +88,8 @@ const CSSL = () => {
 
         <div className={Styles.contact}>
           Pour toutes question sur l'événement ou pour nous contacter
-          directement, rendez-vous sur le <a href="https://discord.gg/cK3KWrnQAv">discrod de la CSSL </a>.
+          directement, rendez-vous sur le{" "}
+          <a href="https://discord.gg/cK3KWrnQAv">discrod de la CSSL </a>.
         </div>
       </div>
     </div>

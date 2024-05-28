@@ -4,24 +4,28 @@ import Carousel from "../Components/Carousel";
 import TopSectionImage from "../Assests/IPPT/IPPT_Photo9.jpg";
 import LolLogo from "../Assests/game/lol.png";
 import SsbuLogo from "../Assests/game/ssbublanc.png";
+import IPPTlogo from "../Assests/events/logo_version_blanche.png";
 
 const IPPT = () => {
   return (
     <div className={Styles.pageContainer}>
       <div className={Styles.topSection}>
         <img src={TopSectionImage} alt="...." className={Styles.image} />
-        <div className={Styles.text}>
-          <div className={Styles.title}>
-            IPP Tournament
-            <p />
-            10ème édition
-            <p />
-            6-7 avril 2024
+        <div className={Styles.topSectionContent}>
+          <div className={Styles.text}>
+            <div className={Styles.title}>
+              IPP Tournament
+              <p />
+              10ème édition
+              <p />
+              6-7 avril 2024
+            </div>
+            <div className={Styles.imagecontainer}>
+              <img src={LolLogo} alt="...." />
+              <img src={SsbuLogo} alt="...." />
+            </div>
           </div>
-          <div className={Styles.imagecontainer}>
-            <img src={LolLogo} alt="...." />
-            <img src={SsbuLogo} alt="...." />
-          </div>
+          <div className={Styles.logoSection}><img src={IPPTlogo} alt="..." /></div>
         </div>
       </div>
 

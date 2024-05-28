@@ -9,10 +9,11 @@ const Contact = () => {
   return (
     <div className={Styles.pageContainer}>
       <div className={Styles.topSection}>
+      <img src={TopSectionImage} alt="...." className={Styles.image} />
         <div className={Styles.text}>
           <div className="title">Nous contacter</div>
         </div>
-        <img src={TopSectionImage} alt="...." className={Styles.image} />
+        
       </div>
 
       <div className={Styles.contactSection}>

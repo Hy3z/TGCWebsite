@@ -33,7 +33,7 @@
 } 
 
 .telecomParisDescription {
-    background: rgb(20, 20, 20);
+background: rgb(20, 20, 20);
     display: flex;
     justify-content: space-around;
     gap: 10%;
