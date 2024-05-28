@@ -21,6 +21,7 @@
 }
 
 .body .rules {
+    border-bottom: 2px dashed white;
     padding-block: 50px;
     display: flex;
     flex-direction: column;
@@ -32,7 +33,10 @@
 }
 
 .rules .content {
+    padding-top: 40px;
     display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .content .title {
@@ -49,5 +53,37 @@
 
 .content .playoff {
     flex:1;
+}
+
+.teamSection {
+    padding-block: 50px;
+    border-bottom: 2px dashed white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamSection .title {
+    font-size: 2rem;
+}
+
+.teamSection .teams {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.teamSection .teams li{
+    font-size: 1rem;
+}
+
+.teamSection .teams h1 {
+    font-size: 1.5rem;
+}
+
+.body .contact {
+    padding-block: 50px;
 }
 

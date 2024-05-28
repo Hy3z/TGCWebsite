@@ -1,0 +1,19 @@
+.name {
+    border-bottom: 5px dashed white;
+}
+
+.players {
+    padding-top: 10px;
+}
+
+.player {
+
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    border-radius: 3%;
+}

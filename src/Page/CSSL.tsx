@@ -1,11 +1,16 @@
 import Countdown from "../Components/Countdown";
-import Styles from "./css/CSSL.module.css"
+import Styles from "./css/CSSL.module.css";
+import TeamCard from "../Components/TeamCard";
+import TeamInfo from "../data/CSSLTeams";
 
 const CSSL = () => {
   return (
     <div className={Styles.pageContainer}>
       <div className={Styles.header}>
-        <div className={Styles.title}>Counter-Strike Student League <p/>1ère édition</div>
+        <div className={Styles.title}>
+          Counter-Strike Student League <p />
+          1ère édition
+        </div>
         <div className={Styles.countdown}>
           <Countdown
             title="La grande final à Telemcom!"
@@ -46,6 +51,18 @@ const CSSL = () => {
                 réparti
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className={Styles.teamSection}>
+          <div className={Styles.title}>Les équipes participantes</div>
+          <div className={Styles.teams}>
+            {TeamInfo["teams"].map((team) => (
+              <TeamCard
+                teamName={team.teamName}
+                teamMembers={team.teamMembers}
+              />
+            ))}
           </div>
         </div>
 
