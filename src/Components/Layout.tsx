@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { /*React,*/ ReactNode } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
@@ -9,7 +9,7 @@ interface Props {
 const Layout = ({ children }: Props) => {
   return (
     <div>
-      <NavBar /> 
+      <NavBar />
       {children}
       <Footer />
     </div>

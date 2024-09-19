@@ -10,9 +10,9 @@ interface Props {
 
 const SponsorIcon = ({
   image,
-  title,
+  /*title,
   description,
-  buttonName,
+  buttonName,*/
   link,
 }: Props) => {
   return (
